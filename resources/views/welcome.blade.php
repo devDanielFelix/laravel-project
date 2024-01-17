@@ -14,7 +14,7 @@
         <p>Não pode tirar a CNH</p>
 
         @endif
-
-        <a href="/contact">Vá para página de Contatos.</a>
+        <a href="/produtos">Vá para página de Produtos.</a>
+        <a href="/contatos">Vá para página de Contatos.</a>
 
 @endsection

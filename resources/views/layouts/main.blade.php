@@ -19,6 +19,16 @@
 
     </head>
     <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-ligth">
+                <div class="collapse navbar-collarpse" id="navbar">
+                    <a href="" class="navbar-brand">
+
+                    </a>
+                </div>
+            </nav>
+        </header>
+
 
         @yield('content')
         <footer>
