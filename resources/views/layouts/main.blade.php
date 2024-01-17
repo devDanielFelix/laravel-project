@@ -22,7 +22,7 @@
 
         @yield('content')
         <footer>
-            <p>Bomba Patch&copy; 2024</p>
+            <p>HDC Events&copy; 2024</p>
         </footer>
     </body>
 
