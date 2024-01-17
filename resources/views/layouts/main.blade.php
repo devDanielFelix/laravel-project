@@ -21,7 +21,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-ligth">
-                <div class="collapse navbar-collarpse" id="navbar">
+                <div class="collapse navbar-collapse" id="navbar">
                     <a href="" class="navbar-brand">
 
                     </a>
