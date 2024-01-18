@@ -10,7 +10,6 @@ class EventController extends Controller
 {
     public function index()
     {
-
         $pessoa =
         [
             'nome' => 'Daniel',

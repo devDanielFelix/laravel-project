@@ -22,10 +22,10 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-ligth">
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a href="" class="navbar-brand">
+                    <a href="/" class="navbar-brand">
                         <img src="/img/pokemon.png" alt="HDC Events" >
                     </a>
-                    <ul class="navbar">
+                    <ul class="navbar-nav">
                         <li class="nav-iten">
                            <a href="/" class="nav-link">Eventos</a>
                         </li>
