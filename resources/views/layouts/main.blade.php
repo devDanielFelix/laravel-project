@@ -23,16 +23,29 @@
             <nav class="navbar navbar-expand-lg navbar-ligth">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="" class="navbar-brand">
-
+                        <img src="/img/pokemon.png" alt="HDC Events" >
                     </a>
+                    <ul class="navbar">
+                        <li class="nav-iten">
+                           <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-iten">
+                            <a href="/events/create" class="nav-link">Criar Eventos</a>
+                         </li>
+                         <li class="nav-iten">
+                            <a href="/" class="nav-link">Entrar</a>
+                         </li>
+                         <li class="nav-iten">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                         </li>
+                    </ul>
                 </div>
             </nav>
         </header>
 
-
         @yield('content')
         <footer>
-            <p>HDC Events&copy; 2024</p>
+            <p>HDC Events &copy; 2024</p>
         </footer>
     </body>
 

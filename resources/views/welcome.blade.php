@@ -6,9 +6,9 @@
 @section('content')
     <body>
         <h1>Hello World</h1>
-        <p>O nome dele é {{$nome}}, ele tem {{$idade}} anos de idade.</p>
+        <p>O nome dele é {{$pessoa['nome']}}, ele tem {{$pessoa['idade']}} anos de idade.</p>
 
-        @if ($idade >= 18)
+        @if ($pessoa['idade'] >= 18)
         <p>Pode tirar a CNH</p>
         @else
         <p>Não pode tirar a CNH</p>
