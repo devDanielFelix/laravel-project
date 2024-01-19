@@ -5,19 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use PhpParser\Builder\Function_;
 use PhpParser\Node\Expr\FuncCall;
+use App\Models\Event;
+
 
 class EventController extends Controller
 {
-    public function index()
-    {
-        $pessoa =
-        [
-            'nome' => 'Daniel',
-            'idade' => 24,
-        ];
+    public function index() {
+
+        $events = Event::all();
 
 
-    return view('welcome', compact('pessoa'));
+        return view('welcome',['events' => $events]);
     }
 
     public function create() {

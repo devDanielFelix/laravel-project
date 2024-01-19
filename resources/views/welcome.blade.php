@@ -4,17 +4,29 @@
 
 
 @section('content')
-    <body>
-        <h1>Hello World</h1>
-        <p>O nome dele é {{$pessoa['nome']}}, ele tem {{$pessoa['idade']}} anos de idade.</p>
 
-        @if ($pessoa['idade'] >= 18)
-        <p>Pode tirar a CNH</p>
-        @else
-        <p>Não pode tirar a CNH</p>
+<div id="search-container" class="col-mds-12">
+    <h1>Busque um evento</h1>
+    <form action="">
+        <input type="text" id="search" name="search" class="form-control" placeholder="Procurar">
+    </form>
+</div>
 
-        @endif
-        <a href="/produtos">Vá para página de Produtos.</a>
-        <a href="/contatos">Vá para página de Contatos.</a>
-
+<div id="events-container" class="col-mds-12">
+    <h2>Próximos Eventos</h2>
+    <p>Veja os eventos dos próximos dias</p>
+    <div id="cards-container" class="row">
+        @foreach($events as $event)
+        <div class="card-md-3">
+            <img src="/img/Eventos_img.jpg" alt="{{ $event->title }}">
+            <div class="card-body">
+                <p class="class-date">20/01/2024</></p>
+                <h5 class="card-title">{{ $event->title }}</h5>
+                <p class="card-participantes">X participantes</p>
+                <a href="#" class="btn btn-primary">Saber mais</a>
+            </div>
+        </div>
+        @endforeach
+    </div>
+</div>
 @endsection
