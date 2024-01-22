@@ -45,7 +45,7 @@
 
         @yield('content')
         <footer>
-            <p>HDC Events &copy; 2024</p>
+            <p>PokeEvents &copy; 2024</p>s
         </footer>
     </body>
 
