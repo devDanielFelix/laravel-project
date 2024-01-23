@@ -23,7 +23,7 @@
             <nav class="navbar navbar-expand-lg navbar-ligth">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                        <img src="/img/pokemon.png" alt="HDC Events" >
+                        <img src="/img/pokemon.png" alt="PokeEvents" >
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-iten">
