@@ -10,8 +10,8 @@
     <form action="/events" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
-            <label for="image">Evento:</label>
-            <input type="file" id="image" class="from-control-file">
+            <label for="image">Imagem do evento:</label>
+            <input name="image" type="file" id="image" class="from-control-file">
         </div>
         <div class="form-group">
             <label for="title">Evento:</label>

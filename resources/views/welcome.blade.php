@@ -16,9 +16,10 @@
     <h2>Próximos Eventos</h2>
     <p class="subtitle">Veja os próximos eventos</p>
     <div id="cards-container" class="row">
+
         @foreach($events as $event)
         <div class="card col-md-3">
-            <img src="/img/Evento_card_img.jpg" alt="{{ $event->title }}">
+            <img src="{{asset("/img/events/$event->image")}}" alt="{{ $event->title }}">
             <div class="card-body">
                 <p class="card-date">20/01/2024</></p>
                 <h5 class="card-title">{{ $event->title }}</h5>
