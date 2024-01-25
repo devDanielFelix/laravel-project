@@ -30,7 +30,7 @@ header {
     background-color: #c28008;
     border-color: #c28008;
 }
-
+/*-- mensagem de sucesso --*/
 .msg {
     background-color: #d4edda;
     color: #155724;
@@ -40,6 +40,7 @@ header {
     text-align: center;
     padding: 10px;
 }
+
 
 #navbar img {
     width: 40px;
@@ -98,11 +99,11 @@ header {
 }
 
 #events-container .card {
-    flex: 1 1 0;
+    flex: 1 1 24%;
     max-width: 25%;
     border-radius: 10px;
     padding: 0;
-    margin: 5px;
+    margin: .5px;
 }
 
 #events-container img {
@@ -143,6 +144,45 @@ header {
     font-size: 12px;
 }
 
+/* Event page */
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    font-size: 14px;
+    display: flex;
+    margin: 0;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin-top: 5px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+/*--Rodapé--*/
 footer {
     text-align: center;
     background-color: #353e48;
