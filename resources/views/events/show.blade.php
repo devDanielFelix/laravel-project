@@ -17,7 +17,7 @@
                 <p class="event-owner"><ion-icon name="star-outline"></ion-icon> Dono do evento </p>
                 <a href="#" class="btn btn-primary" id="event-submit">Confirmar Presença</a>
             </div>
-            <div class="col-mds-12" id="description-container">
+            <div class="col-md-12" id="description-container">
                 <h3>Sobre o eventos</h3>
                 <p class="event-description">{{ $event->description }}</p>
             </div>
