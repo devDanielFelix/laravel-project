@@ -50,7 +50,7 @@ header {
 
 #navbar {
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 5px 0;
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 #search-container {
-    background-image: url("../img/Eventos_img.jpg");
+    background-image: url("../img/Eventos_img_2.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;
