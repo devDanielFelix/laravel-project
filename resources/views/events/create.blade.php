@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
             <label for="title">Cidade:</label>
-            <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento">
+            <input type="text" class="form-control" autocomplete="off" id="city" name="city" placeholder="Local do evento">
         </div>
         <div class="form-group">
             <label for="title">O Evento é privado?</label>
