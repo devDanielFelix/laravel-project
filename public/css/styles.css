@@ -211,6 +211,14 @@ header {
     display: inline-block;
 }
 
+/* edit page*/
+.img-preview {
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+
 /*--Rodapé--*/
 footer {
     text-align: center;

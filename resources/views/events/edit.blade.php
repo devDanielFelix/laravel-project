@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Editando:'. $event->title)
+@section('title', 'Editando: '. $event->title)
 
 
 @section('content')
@@ -21,11 +21,11 @@
         </div>
         <div class="form-group">
             <label for="date">Data do evento:</label>
-            <input type="date" class="form-control" id="date" name="date">
+            <input type="date" class="form-control" id="date" name="date" value="{{ $event->date }}">
         </div>
         <div class="form-group">
             <label for="title">Cidade:</label>
-            <input type="text" class="form-control" autocomplete="off" id="city" name="city" placeholder="Local do evento">
+            <input type="text" class="form-control" autocomplete="off" id="city" name="city" placeholder="Local do evento" value="{{ $event->city }}">
         </div>
         <div class="form-group">
             <label for="title">O Evento é privado?</label>
