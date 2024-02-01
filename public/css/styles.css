@@ -149,7 +149,7 @@ header {
 /* Event page */
 #image-container,
 #info-container {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #image-container img {
@@ -162,7 +162,7 @@ header {
 }
 
 #info-container p {
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
     margin: 0;
 }
