@@ -4,6 +4,6 @@
 
 @section('content')
 
-    <h1>Contatos</h1>
+    <h1>Página de contatos</h1>
     <a href="/">Volte para a home</a>
 @endsection

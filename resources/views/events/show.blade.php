@@ -12,7 +12,7 @@
             </div>
              <div id="info-container" class="col-mds-6">
                 <h1>{{ $event->title }}</h1>
-                <p class="event-date"><ion-icon name="calendar-outline"></ion-icon> {{ $event->date }} </p>
+                <p class="event-date"><ion-icon name="calendar-outline"></ion-icon> {{ $event->date }}</p>
                 <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{ $event->city }} </p>
                 <p class="event-participants"><ion-icon name="people-outline"></ion-icon>X Participantes </p>
                 <p class="event-owner"><ion-icon name="star-outline"></ion-icon> {{ $eventOwner['name'] }} </p>
