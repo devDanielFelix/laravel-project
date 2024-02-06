@@ -36,7 +36,7 @@
         </div>
         <div class="form-group">
             <label for="title">Descrição:</label>
-            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontercer no evento"></textarea>
+            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontercer no evento">{{ $event->description }}</textarea>
         </div>
         <div class="form-group">
             <label for="title">Itens de infraestrutura:</label>
@@ -54,7 +54,7 @@
             </div>
         </div>
 
-        <input type="submit" class="btn btn-primary" value="Criar Evento">
+        <input type="submit" class="btn btn-primary" value="Crir Evento">
     </form>
 </div>
 
