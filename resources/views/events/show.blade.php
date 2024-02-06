@@ -16,7 +16,10 @@
                 <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{ $event->city }} </p>
                 <p class="event-participants"><ion-icon name="people-outline"></ion-icon>X Participantes </p>
                 <p class="event-owner"><ion-icon name="star-outline"></ion-icon> {{ $eventOwner['name'] }} </p>
-                <a href="#" class="btn btn-primary" id="event-submit">Confirmar Presença</a>
+                @csrf
+                <form action="/events/join/{{ $event->id }}" method="POST"></form>
+                    <a href="/events/join/{{ $event->id }}" class="btn btn-primary" id="event-submit" onclick="event.preventDefault();
+                    this.closet('form').submit();">Confirmar Presença</a>
                 <h3>O evento tem:</h3>
                 <ul id="items-list">
                     @foreach ($event->items as $item)
